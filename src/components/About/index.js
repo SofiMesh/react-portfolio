@@ -33,11 +33,20 @@ const About = () => {
             />
           </h1>
 <p>
-
+I recently graduated from General Assembly,
+ where I acquired the skills necessary to pursue a career as a Software Engineer. 
+ I am eager to deepen my knowledge and develop new skills 
+ to deliver exceptional products. 
 </p>
 
 <p align="LEFT">
-
+In addition, 
+ my previous experience as a call center specialist 
+ has equipped me with the ability to break down complex problems 
+ and communicate them in a clear and concise manner. 
+ This skill set will undoubtedly contribute to my effectiveness
+  as a Software Engineer, allowing me to effectively troubleshoot
+   and provide solutions in a user-friendly way.
 </p>
 <p>
 

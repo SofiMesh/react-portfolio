@@ -39,6 +39,7 @@ const Logo = () => {
           duration: 4,
         }
       )
+      gsap.config({trialWarn: false})
 
 },[])
 
