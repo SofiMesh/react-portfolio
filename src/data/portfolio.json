@@ -1,17 +1,24 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Taiwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/1/one.jpg",
+            "title": "Hangman",
+            "description": "JavaScript, HTML, CSS",
+            "url": "https://sofimesh.github.io/Hangman-Game-lab/"
 
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Taiwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/2/two.webp",
+            "title": "Notebook",
+            "description": "React.js, HTML, CSS, JavaScript",
+            "url": "https://notebook123.onrender.com/signup"
+
+        },
+        {
+            "cover": "/portfolio/3/three.png",
+            "title": "Wanderlust",
+            "description": "Python, Django, HTML, CSS, JavaScript",
+            "url": "https://ancient-voice-480.fly.dev/"
 
         }
     ]

@@ -7,14 +7,12 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
 
-
-
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
 
   useEffect(() => {
-    return setTimeout(() => {
+    setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
@@ -23,7 +21,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_9vgzju7', form.current, '3XCTNOk3I-320wv6S')
+      .sendForm('service_ik9j5yp', 'template_ietiueq', form.current, '3XCTNOk3I-320wv6S')
       .then(
         () => {
           alert('Message successfully sent!')
@@ -87,16 +85,15 @@ const Contact = () => {
         <div className="info-map">
           Sofi Meshvildishvili,
           <br />
-          Monroeville,
-          Pennsylvania, United States <br />
+          Greater Pittsburgh Area, PA, United States <br />
           <span>sofimeshvildishvili@gmail.com</span>
 
         </div>
         <div className="map-wrap">
-          <MapContainer center={[40.43651, 79.78000]} zoom={13}>
+        <MapContainer center={[40.4406, -79.9959]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[40.43651, 79.78000]}>
-              <Popup>Sofi lives here, say hi if you are in neighbourhood:)</Popup>
+            <Marker position={[40.4406, -79.9959]}>
+              <Popup>Hello from Pittsburgh</Popup>
             </Marker>
           </MapContainer>
         </div>
@@ -108,9 +105,5 @@ const Contact = () => {
         </>
     )
 }
-
-
-
-
 
 export default Contact

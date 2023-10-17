@@ -41,7 +41,7 @@ return (
             </NavLink>
             <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
-          icon={faClose}
+        //   icon={faClose}
           color="#ffd700"
           size="3x"
           className='close-icon' />

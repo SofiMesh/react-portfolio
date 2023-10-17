@@ -28,10 +28,14 @@ const Home = () => {
   ]
 
   useEffect(() => {
-    setTimeout(() => {
-    setLetterClass('text-animate-hover')
-    }, 4000)
-  }, [])
+    const timeoutId = setTimeout(() => {
+      setLetterClass('text-animate-hover');
+    }, 4000);
+  
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, []);
   
   return (
     <>
@@ -45,7 +49,7 @@ const Home = () => {
             <span className={`${letterClass} _14`}>'m</span>
             <img
               src={LogoTitle}
-              alt="JavaScript Developer Name, Web Developer Name"
+              alt="Web Developer Name"
             />
             <AnimatedLetters
               letterClass={letterClass}
