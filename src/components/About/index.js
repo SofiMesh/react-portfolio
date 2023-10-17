@@ -37,6 +37,7 @@ I recently graduated from General Assembly,
  where I acquired the skills necessary to pursue a career as a Software Engineer. 
  I am eager to deepen my knowledge and develop new skills 
  to deliver exceptional products. 
+ 
 </p>
 
 <p align="LEFT">
@@ -49,8 +50,18 @@ In addition,
    and provide solutions in a user-friendly way.
 </p>
 <p>
-
+Languages: Python, JavaScript, HTML, CSS, SQL.
 </p>
+<p>
+Libraries and Frameworks: React, Express.js, Django, Bootstrap, Semantic UI.
+<p>
+Databases and other: PostgreSQL, MongoDB, RESTful Routing, JSON API.
+</p>
+</p>
+<p>
+Interpersonal skills: Creativity, Collaboration, Communication, Teamwork, Problem-solving, Time Management.
+</p>
+
 </div>
 <div className="stage-cube-cont">
           <div className="cubespinner">

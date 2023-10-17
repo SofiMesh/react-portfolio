@@ -44,7 +44,10 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in front-end developer internships or entry level positions, but I will consider any offer.
+          I am currently seeking opportunities in the field of front-end development, 
+          specifically for internships or entry-level positions.
+           However, I am open to considering any offers that align with my skills
+            and career goals. Thank you for your consideration.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
