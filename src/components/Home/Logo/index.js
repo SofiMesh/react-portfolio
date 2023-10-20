@@ -39,7 +39,6 @@ const Logo = () => {
           <path
             ref={outlineLogoRef}
             d="M150 0 l-150 260 l300 0 l-150 -260z"
-            // Add more shapes or paths here
           />
         </g>
       </svg>
