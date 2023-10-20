@@ -49,15 +49,19 @@ In addition,
   as a Software Engineer, allowing me to effectively troubleshoot
    and provide solutions in a user-friendly way.
 </p>
+
 <p>
 Languages: Python, JavaScript, HTML, CSS, SQL.
 </p>
+
 <p>
 Libraries and Frameworks: React, Express.js, Django, Bootstrap, Semantic UI.
+</p>
+
 <p>
 Databases and other: PostgreSQL, MongoDB, RESTful Routing, JSON API.
 </p>
-</p>
+
 <p>
 Interpersonal skills: Creativity, Collaboration, Communication, Teamwork, Problem-solving, Time Management.
 </p>
