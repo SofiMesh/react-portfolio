@@ -79,3 +79,12 @@
       transform: rotateX(90deg);
     }
   }
+
+  @media screen and (max-width: 120px) {
+    .stage-sube-cont {
+      position: initial;
+      width: 100%;
+      height: 0%;
+      overflow: visible;
+    }
+  }

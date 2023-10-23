@@ -4,7 +4,7 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons'
-import {faHome,faUser, faEnvelope, faSuitcase} from '@fortawesome/free-solid-svg-icons'
+import {faHome,faUser, faEnvelope, faSuitcase, faBars, faClose} from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -39,13 +39,17 @@ return (
                       >
             <FontAwesomeIcon icon={faEnvelope} color="#4d4de" />
             </NavLink>
+
+            
             <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
-        //   icon={faClose}
+          icon={faClose}
           color="#ffd700"
           size="3x"
           className='close-icon' />
         </nav>
+
+
         <ul>
             <li>
                 <a
@@ -73,7 +77,10 @@ return (
             </li>
 
         </ul>
-        
+        <FontAwesomeIcon 
+        onClick={() => setShowNav(true)}
+        icon={faBars} color="#ffd700" size="3x"
+        className='hamburger-icon' />
     </div>
 
 )

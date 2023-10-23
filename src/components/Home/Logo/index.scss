@@ -41,3 +41,14 @@ position: absolute;
 left: 50%;
 top: 20%;
 }
+
+@media screen and (max-width: 1200px) {
+
+
+.solid-logo {
+    position: relative;
+    right: 19vh;
+    width: 500px;
+
+}
+}

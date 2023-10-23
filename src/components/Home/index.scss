@@ -87,7 +87,8 @@
     display: none;
   }
 
-  .home-page .text-zone {
+  .home-page 
+  .text-zone {
     position: initial;
     width: 100%;
     transform: none;
@@ -95,11 +96,12 @@
     box-sizing: border-box;
   }
 
-  .home-page .flat-button {
+  .home-page 
+  .flat-button {
     float: none;
     display: block;
     margin: 20px auto 0 auto;
-    width: 124px;
+    width: 125px;
   }
 
   .logo-container {
